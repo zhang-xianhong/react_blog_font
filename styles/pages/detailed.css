@@ -1,0 +1,108 @@
+.bread-div {
+    padding: .5rem;
+    border-bottom:1px solid #eee;
+    background-color: #e1f0ff;
+}
+
+.detailed-title {
+    padding: 1rem;
+    background-color: #e1f0ff;
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.detailed-content {
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-family: cursive;
+}
+
+.detailed-content h1 {
+    color: deepskyblue;
+}
+
+.detailed-content h2 {
+    color: skyblue;
+}
+
+pre {
+    display: block;
+    background-color: #e1f0ff !important;
+    padding: .5rem !important;
+    overflow-y: auto;
+    font-family: Menlo, monospace;
+    border-radius: .3rem;
+    border: 1px solid #eee;
+}
+
+/* 设置代码块```里面的样式 */
+pre >code{
+    border:0px !important;
+    background-color: #e1f0ff !important;
+    color:#333;
+    font-size: 1rem;
+}
+
+/* 设置``代码块的样式 */
+code {
+    display: inline-block;
+    margin: 0 .133333rem;
+    padding: .133333rem;
+    background-color:#e1f0ff;
+    border:1px solid #eee;
+    border-radius: .2rem;
+    font-size: .8rem;
+    color:#4f4f4f;
+}
+
+.title-anchor {
+    color:#888 !important;
+    padding:4px !important;
+    margin: 0rem !important;
+    height: auto !important;
+    line-height: 1.2rem !important;
+    font-size: .7rem !important;
+    border-bottom: 1px dashed #eee;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.active {
+    color:rgb(30, 144, 255) !important;
+}
+
+.nav-title {
+    text-align: center;
+    color: #666;
+    border-bottom: .066667rem solid rgb(30, 144, 255);
+    padding-bottom: .066667rem;
+}
+.article-menu {
+    font-size:12px;
+}
+
+iframe {
+    height: 34rem;
+}
+
+.detailed-content img{
+    /* vertical-align: center;
+    text-align: center; */
+    width: 100%;
+    border:1px solid #f3f3f3;
+}
+.title-level3 {
+    display: none !important;
+}
+.ant-anchor-link-title {
+    font-size: 12px !important;
+}
+.ant-anchor-wrapper {
+    padding: 5px !important;
+}

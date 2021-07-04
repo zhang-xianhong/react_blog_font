@@ -1,0 +1,58 @@
+.header {
+    background-color: #FFE3E7;
+    background-color: rgba(40, 54, 70, 0);
+    /* background-image: linear-gradient(90deg, red, orange);
+    background-clip: text;
+    animation: hue 5s linear infinite; */
+    /* -webkit-text-fill-color: transparent; */
+    /* background: -webkit-linear-gradient(left,#fff,red 6.25%,#ff7d00 12.5%,#ff0 18.75%,#0f0 25%,#0ff 31.25%,#00f 37.5%,#f0f 43.75%,#ff0 50%,red 56.25%,#ff7d00 62.5%,#ff0 68.75%,#0f0 75%,#0ff 81.25%,#00f 87.5%,#f0f 93.75%,#ff0); */
+    padding: .4rem;
+    overflow: hidden;
+    height: 3.2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.header-logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: cursive;
+    text-align: left;
+}
+
+.header-logo a {
+    color: deeppink;
+}
+
+.header-text {
+    font-size: .8rem;
+    color: #666;
+    display: inline-block;
+    padding-left: .3rem;
+    font-family: cursive;
+}
+
+.ant-menu {
+    line-height: 2.8rem;
+    background-color: rgba(40, 54, 70, 0);
+    /* background-color: #001529; */
+    color: rgba(0,0,0,.65);
+}
+
+.ant-menu-item {
+    font-size: 1rem !important;
+    font-family: cursive;
+    padding: 0 1rem;
+}
+
+.ant-menu-item .anticon {
+    margin-right: .4rem !important;
+}
+
+@keyframes hue {
+    from {
+        filter: hue-rotate(0);
+    }
+    to {
+        filter: hue-rotate(-1turn);
+    }
+}

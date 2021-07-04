@@ -1,0 +1,109 @@
+.author-div {
+    text-align: center;
+    padding: 1rem;
+
+}
+
+/* .author-div div {
+    margin-bottom: 1rem;
+} */
+
+/* .author-tag {
+    margin-bottom: 1rem;
+}
+ */
+.ant-tag {
+    margin-top: .4rem;
+}
+
+.ant-divider-inner-text {
+    font-size: 1rem;
+}
+
+.avater-qq,
+.avater-github,
+.avater-wechat {
+    display: inline-block;
+    position: relative;
+}
+
+.avater-qq:hover .qq,
+.avater-github:hover .github,
+.avater-wechat:hover .wechat {
+    display: block
+}
+
+.github,
+.qq,
+.wechat {
+    display: none;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: -40px;
+    left: -35px;
+    /* background-color: rgba(0, 0, 0, .6); */
+    background-color: skyblue;
+    opacity: .8;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.github {
+    width: 280px;
+    left: -100px;
+}
+
+.wechat {
+    width: 160px;
+    left: -50px;
+}
+/* .qq::after {
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid green;
+} */
+/* .avater-qq:hover .qq {
+    display: block;
+    
+}
+.qq {
+    display: none;
+    background-color: pink;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+} */
+.author-introduction {
+    margin-top: 1rem;
+    font-size:.9rem;
+    color: #666;
+}
+
+.account {
+    background-color: skyblue;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.self-location {
+    margin: .5rem 0;
+    font-size: .9rem;
+    font-family: cursive;
+}
+
+.self-location .anticon {
+    padding-right: .133333rem;
+}
+
+#selfintroduce {
+    font-family: cursive;
+}
